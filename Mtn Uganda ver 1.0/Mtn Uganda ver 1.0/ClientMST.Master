@@ -1,0 +1,113 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ClientMST.master.cs" Inherits="Mtn_Uganda_ver_1._0.ClientMST" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            width: 1360px;
+            height: 213px;
+        }
+        .auto-style3 {
+            color: #FF9900;
+            font-size: xx-large;
+        }
+        .auto-style4 {
+            font-size: large;
+        }
+        .auto-style5 {
+            height: 23px;
+            color: #006600;
+        }
+        .auto-style6 {
+            height: 23px;
+        }
+        </style>
+</head>
+<body style="text-align: center">
+    <form id="form1" runat="server">
+    <div>
+
+        <table class="auto-style1">
+            <tr>
+                <td colspan="10">
+                    <img alt="" class="auto-style2" src="img/mtn.png" /></td>
+            </tr>
+            <tr>
+                <td class="auto-style3" colspan="10"><strong>MTN UGANDA</strong></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td class="auto-style4" colspan="8">Home | About us | Client Online Registration | Contact us | Login</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>Lib</td>
+                <td colspan="7" rowspan="5">
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                </td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>Lab</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style6"></td>
+                <td class="auto-style6"></td>
+                <td class="auto-style6"></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style5" colspan="10">Copy Right @ 2021 mtn Group of Companies</td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>
